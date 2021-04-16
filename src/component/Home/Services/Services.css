@@ -1,0 +1,29 @@
+.services{
+    padding-top: 80px;
+}
+.card-title.h5 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.section-title h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.service{
+    text-align: center;
+}
+.we-btn {
+    border: 2px solid #b92b27;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: #b92b27;
+    font-weight: 700;
+}
+.we-btn:hover{
+    background-color: #fff;
+    color:#b92b27;
+    border: 2px solid #b92b27;
+    
+}

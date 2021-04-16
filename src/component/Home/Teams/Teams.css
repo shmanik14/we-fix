@@ -1,0 +1,22 @@
+.teams{
+    margin-top: 80px;
+}
+.team{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.team img {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.team h4 {
+    color: #fff;
+    font-weight: 700;
+    background: #b92b27c9;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+}

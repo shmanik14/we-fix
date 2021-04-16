@@ -1,0 +1,17 @@
+.main-header {
+    background-color: #fff;
+}
+a.navbar-brand img {
+    height: 50px;
+}
+.main-header .navbar-nav a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    color: #222;
+}
+.main-header .navbar-nav a:hover{
+    text-decoration: none;
+    border: 1px solid #b92b27;
+    border-radius: 50px;
+}

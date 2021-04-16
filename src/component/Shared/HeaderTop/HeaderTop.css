@@ -1,0 +1,26 @@
+.header-top{
+    background-color: #b92b27;
+    padding: 10px 0;
+}
+.contact-info ul,
+.social ul{
+    margin: 0;
+}
+.contact-info ul li,
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.contact-info ul li a,
+.social ul li a{
+    color: #fff;
+    text-align: right;
+    text-decoration: none;
+}
+.contact-info ul li span{
+    padding-right: 10px;
+}

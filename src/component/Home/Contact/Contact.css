@@ -1,0 +1,20 @@
+.contact{
+    padding: 60px;
+    margin-top: 80px;
+    background-color: #f6f6f6;
+}
+.contact-form input {
+    margin-bottom: 25px;
+}
+.contact-title{
+    padding-bottom: 30px;
+}
+.contact-title h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.contact-title p{
+    text-align: center;
+    font-size: 18px;
+}
