@@ -1,0 +1,45 @@
+.sidebar{
+    height: 100%;
+    /* background-color: #b92b27;*/
+    padding: 50px 20px; 
+}
+.service-detail {
+    background-color: #f4f7fc;
+    padding: 50px;
+    border-radius: 5px;
+}
+.detail-header ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.detail-header ul {
+    position: relative;
+}
+
+li.book-user-name {
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+}
+.sidebar .nav a {
+    font-weight: 600;
+    color: #000;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.book{
+    font-size: 24px;
+    font-weight: 700;
+}
+.book-info li{
+    background-color: #fff;
+}
+.book-info li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 11px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+}

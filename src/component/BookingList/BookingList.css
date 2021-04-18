@@ -1,0 +1,10 @@
+p.status {
+    position: absolute;
+    top: 2%;
+    background-color: #b92c27;
+    border-radius: 30px;
+    padding: 5px 20px;
+    right: 2%;
+    color: #fff;
+    font-weight: 500;
+}

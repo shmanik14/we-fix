@@ -12,6 +12,6 @@ a.navbar-brand img {
 }
 .main-header .navbar-nav a:hover{
     text-decoration: none;
-    border: 1px solid #b92b27;
-    border-radius: 50px;
+    border-bottom: 2px solid #b92b27;
+    /* border-radius: 50px; */
 }

@@ -1,0 +1,33 @@
+.page-header{
+    background:linear-gradient(#b92c27c2, rgba(0, 0, 0, 0.7)),url(../../images/Bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.page-header h1 {
+    text-align: center;
+    font-weight: 700;
+}
+.login {
+    border: 1px solid #ebdfdf;
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+.login-btn{
+    border: 1px solid #ebdfdf;
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+button.login-btn span {
+    position: absolute;
+    left: 20px;
+}

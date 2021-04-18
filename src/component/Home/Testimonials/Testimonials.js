@@ -1,30 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Testimonial from '../Testimonial/Testimonial';
 import './Testimonials.css'
 
-const testimonials = [
-    {
-        id: 1,
-        name: 'Walter White',
-        designation: 'Laptop Repair',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit.'
-    },
-    {
-        id: 2,
-        name: 'Laptop Repair',
-        designation: 'Laptop Repair',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit.'
-    },
-    {
-        id: 3,
-        name: 'Laptop Repair',
-        designation: 'Laptop Repair',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit Lorem ipsum dolor sit amet consectetur, adipisicing elit.'
-    }
-]
-
 const Testimonials = () => {
+    const [testimonials, setTestimonials] = useState([]);
+    useEffect(() => {
+        fetch(`https://desolate-spire-67620.herokuapp.com/testimonials`)
+        .then(res => res.json())
+        .then(data => setTestimonials(data))
+    }, [])
     return (
         <div className="testimonials">
             <Container>
@@ -33,7 +18,7 @@ const Testimonials = () => {
                </div>
                 <Row>
                     {
-                    testimonials.map(testimonial => <Testimonial key={testimonial.id} testimonial={testimonial}></Testimonial>)  
+                    testimonials.map(testimonial => <Testimonial key={testimonial._id} testimonial={testimonial}></Testimonial>)  
                     }
                 </Row>
            </Container> 

@@ -8,7 +8,7 @@ const Testimonial = ({testimonial}) => {
                 <p>{testimonial.description}</p>
                 <div className="testimonial-name">
                     <h5>{testimonial.name}</h5>
-                    <p>{testimonial.designation}</p>
+                    <p>{testimonial.company}</p>
                 </div>
             </div>
         </Col>
