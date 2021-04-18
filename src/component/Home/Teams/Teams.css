@@ -5,6 +5,7 @@
     text-align: center;
     position: relative;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 .team img {
     position: relative;

@@ -9,7 +9,7 @@ const Contact = () => {
                 <Row>
                     <Col xs={12} md={6}>
                         <div className="contact-detail">
-
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.177223829524!2d91.83177061426939!3d22.346936146849043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad275a2d54701f%3A0xd788c24a7488498b!2sChittagong%20Press%20Club!5e0!3m2!1sen!2sbd!4v1618755139421!5m2!1sen!2sbd" width="100%" height="450" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </Col>
                     <Col xs={12} md={6}>

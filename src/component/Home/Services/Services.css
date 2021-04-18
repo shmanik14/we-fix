@@ -1,6 +1,9 @@
 .services{
     padding-top: 80px;
 }
+.card,.testimonial{
+    margin-bottom: 30px;
+}
 .card-title.h5 {
     font-size: 28px;
     font-weight: 700;
