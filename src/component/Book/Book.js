@@ -11,6 +11,23 @@ const Book = () => {
     const {id} = useParams();
     const [book, setBook] = useState({});
 
+    const userDetail = {
+        ...loggedInUser,
+        role: 'user'
+    }
+
+    fetch('https://desolate-spire-67620.herokuapp.com/addUser', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(userDetail)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log('added');
+        })
+
     const handlePaymentSuccess = paymentId => {
         const orderDetail = {
             ...loggedInUser,

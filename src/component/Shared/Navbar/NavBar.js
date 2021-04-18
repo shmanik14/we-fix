@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import logo from '../../../images/logo.png'
+import { userContext } from '../../../App';
 
 const NavBar = () => {
+    const [loggedInUser, setLoggedInUser] = useContext(userContext);
     return (
         <div className="main-header">
             <div className="container">
@@ -18,8 +20,11 @@ const NavBar = () => {
                             <Link to="/">About</Link>
                             <Link to="/">Services</Link>
                             <Link to="/">Contact</Link>
-                            <Link to="/">Admin</Link>
-                            <Link className="we-btn" to="/login">Login</Link>
+                            <Link to="/admin">Admin</Link>
+                            {
+                                loggedInUser.email ? <a>{loggedInUser.name}</a> : <Link className="we-btn log-btn" to="/login">Login</Link>
+                            }
+                            
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
