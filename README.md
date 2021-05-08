@@ -1,5 +1,9 @@
 # WeFix - Computer & Mobile Repair
-WeFix is a computer and mobile repair service provider. In this website user can order service after login. User can login with their google account. Without login user can't  order any service. In this website has dashboad for user and admin. User can see their ordered services detail and add review for this websiter. Review will be show in the website home page. In admin dashboard, admin can approve ordered service, make admin, add new service and manage all services.  
+1. WeFix is a computer and mobile repair service provider website.
+2. There are two roles in the website (user & admin).
+3. Admin can see all the bookings, manage service, add service and make an admin.
+4. User has to register to order any service and in the user dashboard, the user can see the user bookings, add a review for service.
+### Used Technology: React.js, node, Express.js, Firebase Auth, Firebase Hosting, Heroku, React-Bootstrap, Font-awsome, React-Router.
 
 # Live Link
 [https://wefix-4390e.web.app/]
